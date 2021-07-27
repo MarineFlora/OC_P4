@@ -785,12 +785,12 @@ h3 {
     color: #cccccc;
 }
 
-.ltc-atomic-tangerine {
+#bloc-3-what-i-do h2 {
     color: #F3976C;
 }
 
-.ltc-atomic-tangerine:hover {
-    color: #c27956;
+#bloc-1-hero {
+    background-color: #F3976C;
 }
 
 .icon-dark-slate-blue {
@@ -824,12 +824,12 @@ blockquote {
     font-style: italic;
     margin: 0;
 }
+/* citation END*/
 
-footer p  {
+footer p, .social  {
     color: #333333;
 }
 
-/* citation END*/
 
 /* ----------- RESPONSIVE START-----------  */
 
