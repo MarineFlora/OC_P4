@@ -785,7 +785,7 @@ h3 {
     color: #cccccc;
 }
 
-.ltc-atomic-tangerine {
+.ltc-atomic-tangerine, .tangerine {
     color: #F3976C;
 }
 
@@ -825,7 +825,7 @@ blockquote {
     margin: 0;
 }
 
-footer p  {
+footer p, .social  {
     color: #333333;
 }
 
