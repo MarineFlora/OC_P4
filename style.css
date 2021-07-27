@@ -682,8 +682,8 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
+p, figcaption {
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -841,6 +841,8 @@ blockquote {
     font-style: italic;
     margin: 0;
 }
+
+
 
 /* citation END*/
 
