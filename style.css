@@ -828,11 +828,9 @@ blockquote {
 }
 /* citation END*/
 
-footer p, .social  {
+footer p, .social, .contact-heading  {
     color: #333333;
 }
-
-
 
 
 
