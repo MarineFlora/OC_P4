@@ -826,7 +826,7 @@ blockquote {
 }
 
 footer p, .social  {
-    color: #333333;
+    color: #333333!important;
 }
 
 /* citation END*/
