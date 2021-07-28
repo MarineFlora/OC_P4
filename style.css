@@ -838,10 +838,7 @@ footer p, .social  {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .bloc.full-width-bloc,
-    .bloc-tile-2.full-width-bloc .container,
-    .bloc-tile-3.full-width-bloc .container,
-    .bloc-tile-4.full-width-bloc .container {
+    .container {
         padding-left: 0;
         padding-right: 0;
     }
