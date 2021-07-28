@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px;
 }
 
 .icon-lg {
@@ -829,7 +829,7 @@ blockquote {
 /* citation END*/
 
 footer p, .social  {
-    color: #333333!important;
+    color: #333333;
 }
 
 
@@ -907,7 +907,7 @@ footer p, .social  {
     .portfolio-bottom {
         margin-bottom: 50px;
     }
-    
+
     .portfolio-row {
     margin-bottom: 0;
     margin-top: 0;
@@ -1048,17 +1048,14 @@ footer p, .social  {
         width: 180px;
         height: 320px;
     }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
