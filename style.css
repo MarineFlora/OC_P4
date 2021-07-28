@@ -702,7 +702,9 @@ p, figcaption {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    
 }
+
 
 h2 {
     font-size: 24px;
@@ -824,12 +826,15 @@ blockquote {
     font-style: italic;
     margin: 0;
 }
+/* citation END*/
 
 footer p, .social  {
     color: #333333!important;
 }
 
-/* citation END*/
+
+
+
 
 /* ----------- RESPONSIVE START-----------  */
 
@@ -895,6 +900,18 @@ footer p, .social  {
 }
 
 @media (max-width: 767px) {
+    .social {
+        display: flex;
+        justify-content: space-between;
+    }
+    .portfolio-bottom {
+        margin-bottom: 50px;
+    }
+    
+    .portfolio-row {
+    margin-bottom: 0;
+    margin-top: 0;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
