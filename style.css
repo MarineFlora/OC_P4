@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px;
 }
 
 .icon-lg {
@@ -702,7 +702,9 @@ p, figcaption {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    
 }
+
 
 h2 {
     font-size: 24px;
@@ -824,12 +826,15 @@ blockquote {
     font-style: italic;
     margin: 0;
 }
+/* citation END*/
 
 footer p, .social  {
-    color: #333333!important;
+    color: #333333;
 }
 
-/* citation END*/
+
+
+
 
 /* ----------- RESPONSIVE START-----------  */
 
@@ -838,10 +843,7 @@ footer p, .social  {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .bloc.full-width-bloc,
-    .bloc-tile-2.full-width-bloc .container,
-    .bloc-tile-3.full-width-bloc .container,
-    .bloc-tile-4.full-width-bloc .container {
+    .container {
         padding-left: 0;
         padding-right: 0;
     }
@@ -880,24 +882,22 @@ footer p, .social  {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
-    .bloc-group,
-    .bloc-group .bloc {
-        display: block;
-        width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
 }
 
 @media (max-width: 767px) {
+    .social {
+        display: flex;
+        justify-content: space-between;
+    }
+    .portfolio-bottom {
+        margin-bottom: 50px;
+    }
+
+    .portfolio-row {
+    margin-bottom: 0;
+    margin-top: 0;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1034,16 +1034,6 @@ footer p, .social  {
         width: 180px;
         height: 320px;
     }
-}
-
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
