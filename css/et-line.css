@@ -1,6 +1,3 @@
-/* et-line = 3 icones webdesign: browser, stratégie : presentation, illustrations: edit // Donc on peut enlever tout le reste ? */
-
-
 @font-face {
     font-family: et-line;
     src: url(../fonts/et-line.eot);
@@ -110,7 +107,6 @@
 .et-icon-wallet,
 .et-icon-wine {
     font-family: et-line;
-    speak: none;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
