@@ -884,6 +884,10 @@ footer p, .social, .contact-heading  {
 }
 
 @media (max-width: 767px) {
+    .black-background {
+        padding: 40px 0 40px 0;
+    }
+
     .social {
         display: flex;
         justify-content: space-between;
