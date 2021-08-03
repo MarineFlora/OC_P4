@@ -15,3 +15,8 @@ Status : fini
 - HTML5
 - CSS3
 - Javascript (non modifié)
+
+## Site avant optimisation
+https://marineflora.github.io/OC_P4_avant/
+## Site après optimisation
+https://marineflora.github.io/OC_P4/
