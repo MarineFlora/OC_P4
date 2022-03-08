@@ -12,6 +12,13 @@ https://drive.google.com/file/d/13frwZZVoaxHVq6rC3FuGcxD_Q0IriQ5k/view?usp=shari
 - comparer les résultats dans un rapport d'optimisation  
 https://drive.google.com/file/d/1P2oAVqYe5BzOyoy_0hBpSFl-oduywnit/view?usp=sharing
 
+Compétences développées :   
+➡ Écrire un code HTML et CSS maintenable   
+➡ Assurer l'accessibilité d'un site web     
+➡ Optimiser le référencement d'un site web   
+➡ Réaliser une recherche des bonnes pratiques en développement web   
+➡ Optimiser la taille et la vitesse d’un site web   
+
 Status : fini
 
 ## Technologies
